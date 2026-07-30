@@ -1,0 +1,36 @@
+# IDE & Editor
+.vscode/
+.idea/
+
+# AI agent local config/state
+.claude/
+.omc/
+.codex/*
+!.codex/config.toml
+.codegraph/
+
+# Node
+node_modules/
+dist/
+
+# Runtime data
+data/
+sessions/
+.agent/
+image/
+
+# Coverage
+coverage/
+
+# TypeScript
+*.tsbuildinfo
+
+# Environment
+.env
+.env.local
+.env.production
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
